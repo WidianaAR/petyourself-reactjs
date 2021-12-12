@@ -1,0 +1,76 @@
+html {height: 100%}
+body {margin: 0%; padding: 0%; background-color: #FFE898; height: 100%}
+#header_notlogin {height: 15%; font-size: 1.3vw; width: 100%}
+#header_notlogin table {width: 85%; text-align: center;}
+
+a.border-putih {
+	background: #ffffff;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 45px 10px 45px;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.border-putih:hover {background: #F9A826; text-decoration: none;
+}
+#isi_index {background-color: white; width: 100%; height: 70%}
+#isi_index .side_kanan{float: right; margin-right: 100px; margin-top: 25px;}
+#isi_signup {background-color: white; width: 100%;}
+#isi_signup .side_kanan{float: right; margin-right: 100px; margin-top: 130px;}
+
+.login h1{margin-left: 300px; color: #3F3D56; margin-top: 50px;}
+.login p{margin-left: 100px;}
+.login input{height: 25px; width: 500px; margin-left: 100px; border: 0.1em solid black;}
+.span{
+	transform: translate(0,-50%);
+	cursor: pointer;
+}
+.fa{
+	font-size: 20px;
+}
+.btn-login{
+	width: 75%;
+	height: 50px;
+	border-radius: 15px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #F9A826, #38d39f, #F9A826);
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: rgb(255, 255, 255);
+	font-family: 'Poppins', sans-serif;
+	margin: 1rem 0;
+    margin-left: 120px;
+	cursor: pointer;
+	transition: .5s;
+}
+.btn-login:hover{
+	background-position: right;
+}
+.lupa a{
+	display: block;
+	text-decoration: none;
+	color: rgb(142, 144, 247);
+	font-size: 0.9rem;
+	transition: .3s;
+	margin-left: 500px;
+}
+.lupa a:hover{
+	color: #d39538;
+}
+.register{
+    margin-left: 260px;
+}
+.register a{
+	color: rgb(142, 144, 247);
+	font-size: 0.9rem;
+	transition: .3s;
+}
+.register a:hover{
+    color: #d39538;
+}
+#footer_index {height: 20%;  background-color: #ffffff; height: 15%}
+a {text-decoration: none; font-weight: bold; color: black}
+a:hover {color: red}
+button:hover {background-color: grey; color: white}

@@ -1,0 +1,80 @@
+html {height: 100%}
+body {margin: 0%; padding: 0%; background-color: #FFE898; height: 100%}
+#header_login {height: 15%; font-size: 1.3vw; width: 100%;}
+#header_login table {width: 85%; text-align: center;}
+
+#isi {background-color: white; padding-left: 9%; padding-right: 9%}
+#footer {padding-left: 70px; color: white; background-color: #FF9A00;}
+#isi_ac {background-color: white; padding-left: 5%; padding-right: 5%; text-align: center;}
+
+#isi2 {background-color: #F2F2F2; width: 100%}
+#isi2 table td { text-align:center}
+
+#isi_about {background-color: white; width: 100%}
+a {text-decoration: none; font-weight: bold; color: black}
+a:hover {color: red}
+a.border-putih {
+	background: #ffffff;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 45px 10px 45px;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.border-putih:hover {background: #F9A826; text-decoration: none;}
+img {-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;}
+img:hover {-webkit-transform: scale(1.1); transform: scale(1.1);}
+button:hover {background-color: grey; color: white}
+input {width:300px; height: 25px; border-radius: 10px; border: 0}
+#tombol {border-radius: 15px; width: 500px; height: 50px; color: white; background: #FF9A00; font-size: 20px}
+#tombol:hover {background-color: #FFE898; color: black}
+#isi_about2 {background-color: #F2F2F2; width: 100%}
+#isi_about2 table td { text-align:center}
+#isi3 {background-color: #F2F2F2; padding-left: 100px; padding-right: 100px;}
+
+#footer_about {width: 100%; color: white; background-color: #FF9A00;}
+#footer_about td {padding-top: 10px; font-size: 20px}
+#footer_about button {height: 40px; width: 60px; border-radius: 5px; border: 0; font-weight: bold; background-color: #4281F8; color: white}
+#footer_about button:hover {background-color: #A4C3FF; color:black;}
+#tabel_pesan th {padding: 0em 6.8em; font-size:1.1em;}
+
+#side_menu h4 {margin-bottom: 0}
+#side_menu table {border-radius: 10px; background-color: #FFE898; width: 100%}
+#side_menu button {width: 100%; height: 30px;border: 0; border-radius: 30px; background-color: transparent; text-align: left;}
+#side_menu button:hover {background-color: #F8BF52; color: black}
+#side_menu input {background-color: transparent; width: 85%; height: 30px}
+
+#produk {width: 100%; background-color: #FFE898; text-align: center;}
+#produk tr {text-align: center; vertical-align: middle;}
+#produk img {width: 80%}
+#produk h2 {text-align: center; margin: 0}
+
+#deskripsi {width: 100%; background-color: #FFE898;}
+#deskripsi h2 {text-align: center; margin-bottom: 0}
+#deskripsi p {padding-left: 5%; padding-right: 5%}
+#deskripsi table {width: 100%; text-align: center; border-spacing: 20px}
+#deskripsi button {width: 90%; height: 30px; border: 1px solid black; border-radius: 10px; background-color:transparent;}
+#deskripsi button:hover {background-color: #FF9A00; color: black}
+
+#hidden {visibility: hidden;}
+.btn-purchase {width: 60%; height: 50px; border-radius: 20px; background-color: #FF9A00; border: 0;}
+.btn-purchase:hover {background-color: #FFE898; color: black}
+
+#rekomen {width: 100%; background-color: #FFE898;}
+#rekomen img {width: 50%;}
+
+.rating{width: 200px; background: rgb(241, 169, 33); border-radius: 2px; display: flex;}
+.rating .star input{ display: none;}
+.star label{color: rgb(61, 59, 59); font-size: 15px; padding: 10px; float: right; transition: all 0.2s ease; }
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label{color: rgb(253, 219, 65);}
+input:checked ~ label{color: rgb(253, 219, 65);}
+input#star-5:checked ~ label{color: rgb(255, 238, 119); text-shadow: 0 0 20px rgb(153, 85, 34);}
+#tabel_ulasan{
+    border-radius: 15px;
+    padding-bottom: 150px;
+}
