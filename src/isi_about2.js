@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import Cek_button from './cek_button';
+import { Link } from "react-router-dom";
 
 class Isi_about2 extends React.Component {
   render() {
@@ -23,7 +23,16 @@ class Isi_about2 extends React.Component {
 					<td colspan="3" rowspan="2" align="center"><img src={require("./gambar/sosmed.png").default} style={{height: "250px", width: "400px"}}></img></td>
 				</tr>
 				<tr>
-					<td colspan="3"><Cek_button /></td>
+					<td colspan="3">
+					{(() => {
+						if (window.location.pathname=="/petyourself-reactjs/about_guest"){
+							return (
+								<Link to="/petyourself-reactjs/platform_guest"><button id="tombol">Cek Disini!</button></Link>
+							)
+						}
+						return <Link to="/petyourself-reactjs/platform"><button id="tombol">Cek Disini!</button></Link>
+					})()}
+					</td>
 				</tr>
 				<br></br><br></br><br></br>
 			</table>
