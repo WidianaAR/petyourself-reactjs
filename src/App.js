@@ -29,6 +29,7 @@ function App() {
         <Route path="/petyourself-reactjs/shop2" element={<><Header_login/><Isi_shop2/><Footer/></>}/>
         <Route path="/petyourself-reactjs/shop3" element={<><Header_login/><Isi_shop3/><Footer/></>}/>
         <Route path="/petyourself-reactjs/shop4" element={<><Header_login/><Isi_shop4/><Footer/></>}/>
+        <Route path="/petyourself-reactjs/platform_guest" element={<><Header_notlogin/><Isi_platform/><Footer/></>}/>
         <Route path="/petyourself-reactjs/platform" element={<><Header_login/><Isi_platform/><Footer/></>}/>
         <Route path="/petyourself-reactjs/testimoni" element={<><Header_login/><Isi_testimoni/><Footer/></>}/>
         <Route path="/petyourself-reactjs/testimoni_guest" element={<><Header_notlogin/><Isi_testimoni/><Footer/></>}/>
